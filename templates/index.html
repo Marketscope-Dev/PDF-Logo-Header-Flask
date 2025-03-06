@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Header Adder</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f0f0f0; }
+        h1 { color: #333; }
+        .button { padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; }
+        .button:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+    <h1>Upload a PDF to Add a Header</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".pdf" required><br><br>
+        <input type="submit" value="Upload and Process" class="button">
+    </form>
+</body>
+</html>
